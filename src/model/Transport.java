@@ -6,7 +6,7 @@ import java.time.ZonedDateTime;
 
 public abstract class Transport {
     protected final String vin;
-    protected ZonedDateTime createDate;
+    protected final ZonedDateTime createDate;
     protected final int maxSpeed;
     protected String ecoClass;
     protected final Integer width;
